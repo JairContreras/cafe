@@ -19,6 +19,15 @@
     color: black;
 }
 
+address{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 .buttonDark{
     border-color:#B1ACA5
+}
+
+.form{
+    width: 95%;
 }
