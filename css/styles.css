@@ -1,0 +1,239 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size:60px;
+    font-weight: 600px;
+    line-height: 80px;
+}
+
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    columns: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover{
+text-decoration: none;
+}
+
+section{
+    padding:120px 0;
+}
+
+.btn-light-grey{
+    background-color: #f5f5f5;
+}
+
+#main{
+
+    margin-top: 139px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.topmargin-xs{ margin-top: 15px;}
+.topmargin-sm{ margin-top: 30px;}
+.topmargin-lg{ margin-top: 60px;}
+
+.bottommargin-xs{
+    margin-bottom: 15px;
+}
+
+.btn{
+    font-size:14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display:inline-block
+}
+
+.btn-light{
+    background-color: white;
+    color:black;
+    border: 2px solid white;
+}
+#cover p{
+    font-size:18px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.navbar{
+    background-color:white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+
+    width: 100%;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color:white;
+    background-color: brown;
+}
+
+.logo-brand{
+    min-width: 160px;
+    max-width: 180px;
+
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+#cover{
+    background-image: url('../images/cafe.jpg');
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 100px;
+    color: white;
+}
+
+.darkText{
+    color: #1a1a1a;
+}
+
+.greyText{
+    color: grey;
+    text-shadow: 100px;
+}
+
+.bg-dark{
+    background-color: #1a1a1a !important;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.productos-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 30px;
+}
+
+.productos-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.productos-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform:scale(1.2);
+}
+
+.productos-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 10;
+}
+
+.productos-details h2{
+    margin-bottom: 0;
+}
+
+.productos-details a h2{
+    color: black;
+}
+.productos-details a p{
+    font-style: italic;
+    color:black
+}
+
+#footer{
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
+
+#footer ul li a{
+    color: white;
+}
+
+#footer ul{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-menu{
+    display: block !important;
+}
+
+#footer .ion-icon{
+    font-size: x-large;
+
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// *No media query for `xs` since this is the default in Bootstrap
+*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    h1{
+        font: size 40px; 
+        line-height: normal;
+    }
+
+    .footer-menu{
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .footer-menu{
+        display: inline-block !important;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .footer-menu{
+        display: inline-block !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .footer-menu{
+        display: inline-block !important;
+    }
+}
