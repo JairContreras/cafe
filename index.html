@@ -28,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" id="nosotros">Nosotros <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" id="nosotros">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="cafe">Cultura Café</a>
+                        <a class="nav-link" href="./nosotros.html" id="cafe">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="cafe">Tienda</a>
+                        <a class="nav-link" href="./cultura.html" id="cafe">Cultura café</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html" id="contacto">Contacto</a>
@@ -43,112 +43,78 @@
             </div>
         </nav>
     </header>
+    
     <div id="main">
-        <section id="cover">
-            <div class="container">
-                <div class="content-center topmargin-xs">
-                    <h1>El único secreto es la calidad</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima enim dolores ex esse quas
-                        sapiente
-                        odio quis, iste maxime necessitatibus facere in cumque iusto vero provident veniam dolorum sequi
-                        magni?</p>
+        <section class="container-fluid">
+            <div class="jumbotron">
+                <div class="text-jumbotron text-center">
+                    <h1 class="text-sm-center">El único secreto es la calidad</h1>
+                    <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis
+                        maiores ab consequuntur, doloribus numquam pariatur consequatur exercitationem architecto dicta
+                        illo non voluptas cumque magni inventore asperiores tempore similique! Fugit.</p>
+                    <hr>
                     <a href="#" class="btn btn-light topmargin-sm bottommargin-xs">
                         Explore Now <ion-icon name="chevron-forward-circle"></ion-icon>
                     </a>
                 </div>
             </div>
-        </section>
-
-        <section id="productos">
-            <div class="container-fluid">
-                <div class="content-center">
-                    <h2>La vida es demasiado corta para <b>tomar cafés malos.</b></h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quos dolorum harum error!
-                        Consequuntur ab, praesentium eum voluptatum ducimus incidunt culpa eius, corrupti dignissimos
-                        adipisci earum, harum optio natus eveniet?</p>
-                </div>
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <div class="productos-container">
-                                <div class="productos-details">
-                                    <a href="#">
-                                        <h2>Café Córdoba</h2>
-                                    </a>
-                                    <a href="#">
-                                        <p>-Un café natural producto de la mas cuidadosa selección entre los granos de
-                                            más
-                                            alta calidad.</p>
-                                    </a>
-                                </div>
-                                <img src="images/cordoba.jpg" class="img-fluid" alt="Producto Café Córdoba">
+        </section> <!--Jumbotron-->
+        <section id="productos" class="container-fluid">
+            <div class="content-center">
+                <h2>La vida es demasiado corta para <b>tomar cafés malos.</b></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quos dolorum harum error!
+                    Consequuntur ab, praesentium eum voluptatum ducimus incidunt culpa eius, corrupti
+                    dignissimos
+                    adipisci earum, harum optio natus eveniet?</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-12 offset-md-1">
+                        <div class="productos-container">
+                            <div class="productos-details">
+                                <a href="#" class="header-producto text-center">
+                                    <h2>Café Córdoba</h2>
+                                </a>
                             </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="productos-container">
-                                <div class="productos-details">
-                                    <a href="#">
-                                        <h2>Café Prima Lavado</h2>
-                                    </a>
-                                    <a href="#">
-                                        <p>-Un genuino compromiso con la calidad logra que este café de altura alcance
-                                            la
-                                            excelencia en atoma, sabor, cuerpo y ácidez.</p>
-                                    </a>
-                                </div>
-                                <img src="images/cordoba.jpg" class="img-fluid" alt="Producto Café Prima Lavado">
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <div class="productos-container">
-                                <div class="productos-details">
-                                    <a href="#">
-                                        <h2>Café Basa</h2>
-                                    </a>
-                                    <a href="#">
-                                        <p>-Deliciosa combinación de café y caramelo, nadamas de verlo se antoja.
-                                            Pefecto
-                                            para un cafecito de olla.</p>
-                                    </a>
-                                </div>
-                                <img src="images/cordoba.jpg" class="img-fluid" alt="Producto Café Basa">
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="productos-container">
-                                <div class="productos-details">
-                                    <a href="#">
-                                        <h2>Productos de café</h2>
-                                    </a>
-                                    <a href="#">
-                                        <p>-.Disfruta una variedad indiscutible de deliciosos productos hechos de café
-                                        </p>
-                                    </a>
-                                </div>
-                                <img src="images/cordoba.jpg" class="img-fluid" alt="Productos de Café">
-                            </div>
+                            <img src="images/cordoba.jpg" class="img-fluid" alt="Producto Café Córdoba">
                         </div>
                     </div>
+                    <div class="col-md-3 col-12 offset-md-1">
+                        <div class="productos-container">
+                            <div class="productos-details">
+                                <a href="#">
+                                    <h2>Café Prima Lavado</h2>
+                                </a>
+                            </div>
+                            <img src="images/cordoba.jpg" class="img-fluid" alt="Producto Café Prima Lavado">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12 offset-md-1">
+                        <div class="productos-container">
+                            <div class="productos-details">
+                                <a href="#">
+                                    <h2>Café Basa</h2>
+                                </a>
+                            </div>
+                            <img src="images/cordoba.jpg" class="img-fluid" alt="Producto Café Basa">
+                        </div>
+                    </div>
+
                 </div>
-
-
+            </div>
         </section>
 
-        <div class="text-center topmargin-sm">
-            <p class="darkText">¿Y a ti como te gusta el café?</p>
+        <div class="text-center topmargin-lg">
+            <p class="darkText frase">¿Y a ti como te gusta el café?</p>
             <p class="greyText">¡Contigo!</p>
         </div>
 
-        <section id="sucursales" class="btn-light-grey">
+        <section id="sucursales" class="btn-light-grey topmargin-lg">
             <div class="container">
-                <div class="content-center">
+                <div class="content-center topmargin-lg">
                     <h2>Centro <b>Cultural</b></h2>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem corrupti perferendis reprehenderit
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem corrupti perferendis
+                        reprehenderit
                         iste a eius, consequatur, sunt totam nostrum possimus quia laboriosam ipsam accusamus.</p>
                 </div>
 
@@ -189,9 +155,15 @@
                 </ul>
 
                 <ul class="list-inline">
-                    <li class="list-inline-item ion-icon"><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                    <li class="list-inline-item ion-icon"><a href="#""></a><ion-icon name="logo-facebook"></ion-icon></li>
-                    <li class="list-inline-item ion-icon"><a href="#"><ion-icon name="mail-outline"></ion-icon></a></li>
+                    <li class="list-inline-item ion-icon"><a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
+                    <li class="list-inline-item ion-icon"><a href="#""></a><ion-icon name=" logo-facebook">
+                            </ion-icon>
+                    </li>
+                    <li class="list-inline-item ion-icon"><a href="#">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a></li>
                 </ul>
                 <small>Contacto: 01800 849 1699</small>
             </div>
